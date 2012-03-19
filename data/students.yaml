@@ -29,3 +29,12 @@
   irc: threebean
   name: Ralph Bean
   rit_dce: rjbpop
+
+- blog: http://posiden.darkdna.net/
+  feed: http://posiden.darkdna.net/rss
+  forges:
+    - http://github.com/rossdylan
+    - http://bitbucket.org/rdelinger
+  irc: rossdylan
+  name: Ross Delinger
+  rit_dce: rad4899
