@@ -19,6 +19,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 #===============================================================================
+from __future__ import print_function
 
 
 
@@ -31,6 +32,7 @@ import re
 from glob import glob
 import shlex
 import warnings
+import six
 
 
 
@@ -167,7 +169,7 @@ class Command(object):
         
     def __str__(self):
         if IS_PY3: return self.__unicode__()
-        else: return unicode(self).encode('utf-8')
+        else: return six.text_type(self).encode('utf-8')
         
     def __unicode__(self):
         if self.process: return self.stdout.decode('utf-8') # byte string
@@ -367,14 +369,14 @@ see \"Limitations\" here: %s" % PROJECT_URL)
 def run_repl(env):
     banner = "\n>> PBS v{version}\n>> https://github.com/amoffat/pbs\n"
     
-    print(banner.format(version=VERSION))
+    print((banner.format(version=VERSION)))
     while True:
         try: line = raw_input("pbs> ")
         except (ValueError, EOFError): break
             
         try: exec(compile(line, "<dummy>", "single"), env, env)
         except SystemExit: break
-        except: print(traceback.format_exc())
+        except: print((traceback.format_exc()))
 
     # cleans up our last line
     print('')
@@ -447,7 +449,7 @@ RuntimeWarning, stacklevel=2)
             exit_code = 0
             try: exec(source, env, env)
             except SystemExit as e: exit_code = e.code
-            except: print(traceback.format_exc())
+            except: print((traceback.format_exc()))
 
             # we exit so we don't actually run the script that we were imported
             # from (which would be running it "again", since we just executed

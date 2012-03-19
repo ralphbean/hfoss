@@ -14,9 +14,10 @@ setup(
         'cloud_sptheme',
         'pyyaml',
         'feedparser',
+        'six',  # For python3 support.
     ],
     url = "http://teachingopensource.org/index.php/RIT",
-    download_url = "https://github.com/ralphbean/hfoss",
+    download_url="https://github.com/ralphbean/hfoss",
     author='Ralph Bean',
     author_email='ralph.bean@gmail.com',
     license='GPLv3+',

@@ -1,6 +1,9 @@
-
+from __future__ import print_function
 from pbs import grep, git
 import pprint
+import six
+from six.moves import map
+from six.moves import zip
 
 
 def get_authors():
@@ -18,7 +21,7 @@ def adjust_impact(impact):
         "Remy D": "Remy DeCausemaker",
         "Phil Moccio": "Philip Moccio",
     }
-    for old, new in duplicates.iteritems():
+    for old, new in six.iteritems(duplicates):
         impact[new] = impact[new] + impact[old]
         del impact[old]
     return impact
@@ -36,7 +39,7 @@ def _get_impact_per(author):
         try:
             total += sum(map(int, line.split()[:2]))
         except ValueError:
-            print "(skipping)", line
+            print("(skipping)", line)
     return total
 
 
@@ -56,19 +59,19 @@ def get_grades(impact):
 
 def main():
     authors = get_authors()
-    print "Found %i unique authors." % len(authors)
+    print("Found %i unique authors." % len(authors))
 
     impact = get_impact(authors)
-    print
-    print "Determined the following 'impact' per author:"
-    for key, value in impact.iteritems():
-        print "", key, value
+    print()
+    print("Determined the following 'impact' per author:")
+    for key, value in six.iteritems(impact):
+        print("", key, value)
 
     grades = get_grades(impact)
-    print
-    print "Got the following grades per student:"
-    for key, value in grades.iteritems():
-        print "", key, value
+    print()
+    print("Got the following grades per student:")
+    for key, value in six.iteritems(grades):
+        print("", key, value)
 
 
 if __name__ == '__main__':
