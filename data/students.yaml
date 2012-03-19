@@ -29,3 +29,11 @@
   irc: threebean
   name: Ralph Bean
   rit_dce: rjbpop
+
+- blog: http://ryansb.com/
+  feed: http://ryansb.com/atom.xml
+  forges:
+    - http://github.com/ryansb
+  irc: ryansb
+  name: Ryan Brown
+  rit_dce: rsb6994
