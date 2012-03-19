@@ -8,7 +8,7 @@ Week 02, Day 1:  First Flight
  - Covering the Syllabus
  - Discussing Open-Advice on Community Building
  - Discussing PyCon Videos
- - Introduction to ``git``
+ - Introduction to ``git`` by ryansb from http://ryansb.com/seminars/git
  - :doc:`hw/fflight`
 
 
