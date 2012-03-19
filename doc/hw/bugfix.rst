@@ -6,49 +6,6 @@ Debugging, figuring out how some software works and how it doesn't, is an
 interactive process that develops basic engineering practices and, in the open
 source context, community engagement and collaboration.
 
-Pick a Project
---------------
-
-You can choose any project you like.  The best to pick is something you *already
-use*, something with which you're already familiar.  If you can't think of any
-projects to investigate off the top of your head, here's a list of suggestions.
-
- - The `Battle for Wesnoth <http://www.wesnoth.org/>`_
- - `js.io <https://github.com/gameclosure/js.io>`_
- - The Linux Kernel (`bugzilla is down
-   <http://comments.gmane.org/gmane.linux.kernel/1209650>`_, you could try
-   `looking here
-   <https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&version=rawhide&component=kernel>`_
- - `liveusb-creator <https://fedorahosted.org/liveusb-creator/>`_
- - The `Mozilla Project <https://bugzilla.mozilla.org/>`_
- - `node.js <http://nodejs.org/>`_
- - `pandas <http://github.com/wesm/pandas>`_, a data manipulation library
- - `Pyramid (web framework) <http://docs.pylonsproject.org/>`_
- - `Toscawidgets 2 (web widgets)
-   <http://tw2core.readthedocs.org/en/latest/index.html>`_
- - `Turbogears 2 (web framework) <http://turbogears.org/>`_
- - The `Ur-Quan Masters <http://sc2.sourceforge.net/>`_
- - The `ManaWorld MMORPG for Linux <http://mantis.themanaworld.org/my_view_page.php>`_
-
-A little more focused, here is a list of open source javascript/html5 game
-engines and links to their bug trackers.
-
- - `gameQuery <https://github.com/onaluf/gameQuery/issues>`_
- - `limeJS <https://github.com/digitalfruit/limejs/issues>`_
- - `melonJS <https://github.com/obiot/melonJS/issues>`_
- - `akihabara <https://github.com/kesiev/akihabara/issues>`_
- - `effect <https://github.com/jhuckaby/Effect-Games/issues>`_
-
-You might also find something neat over at bounty sites like:
-
- - Gun.io `<http://gun.io/>`_
-
-Really, the sky is the limit here.
-
-.. note:: For background, you might want to also check out the project on
-   http://ohloh.net/.  It can help you characterize what kind of community
-   orbits around your choice.
-
 Find a bug
 ----------
 
@@ -65,22 +22,21 @@ Broadly, you have two different options here.  You can
 In the event of the second case, make sure you file the bug in the project's
 tracker before proceeding.
 
-OpenHatch.org
-~~~~~~~~~~~~~
+You can fix a bug in any project you like.  The best to pick is something you *already
+use*, something with which you're already familiar.  If you can't think of any
+projects to investigate off the top of your head, here's a list of suggestions.
 
-OpenHatch.org bills itself as an "Open source Involvement Engine." It's mission
-is *explicitly* to reach out to communities of developers just like the one in
-this very course, and make it trivial for new contributors to effectively cycle
-on upstream projects!
+ - Scope the OpenHatch Volunteer Opportunity Finder for
+   `Bite-sized Bugs <http://openhatch.org/search/?toughness=bitesize>`_
+ - Use the search function at http://github.com/ and filter by language (to a
+   language that you know).
+ - Look up some of the bounties at Gun.io `<http://gun.io/>`_
 
-You can read more about OpenHatch and it's vision `here on their wiki <https://openhatch.org/wiki/About_OpenHatch>`_
+Really, the sky is the limit here.
 
-For this homework assignment, you should check out:
-
- - `OpenHatch <http://openhatch.org>`_, particularly
- - The OpenHatch Volunteer Opportunity Finder for `Bite-sized Bugs <http://openhatch.org/search/?toughness=bitesize>`_
- - If you want *all* the bugs, you can find them through `OpenHatch's Search <http://openhatch.org/search>`_
-
+.. note:: For background, you might want to also check out the project on
+   http://ohloh.net/.  It can help you characterize what kind of community
+   orbits around your choice.
 
 Use the Source, Luke
 --------------------

@@ -6,16 +6,6 @@ FLOSS practices.  Read it in full, there are a number of graded deliverables.
 
 The due-date is listed in the :doc:`../syllabus`.
 
-Fill out the survey
--------------------
-
-*Tasks*:
-  - Your first task is to fill out the survey located here:
-    https://clipboard.rit.edu/take.cfm?sid=E958FABE
-
-It's anonymous, but the results will be published back to the whole class so we
-have a feel for the technical level and preferences coming into the course.
-
 IRC
 ---
 
@@ -141,7 +131,7 @@ Patch the Course Project
 ------------------------
 
 Check out the source repository for this course; it's hosted at
-https://github.com/ralphbean/tos-rit-projects-seminar.
+https://github.com/ralphbean/hfoss.
 
 Inside the repository, we'll keep an index of all the students in the course and
 metadata about them (you!).
@@ -152,7 +142,7 @@ metadata about them (you!).
  - Work through this `git tutorial <http://gitimmersion.com/index.html>`_ if you
    don't have any experience with git.
  - Fork `the repository
-   <https://github.com/ralphbean/tos-rit-projects-seminar>`_ (link to
+   <https://github.com/ralphbean/hfoss>`_ (link to
    `github help <http://help.github.com/fork-a-repo/>`_ on this).
  - Clone a local copy.
  - Follow the instructions in ``README.rst`` to setup your environment.
@@ -160,7 +150,7 @@ metadata about them (you!).
    a `YAML <http://www.yaml.org/>`_ file.  Add yourself to the file with the
    necessary keywords.
  - Verify that you added yourself correctly by running the script located at
-   ``lib/ritfloss/model/validate.py``
+   ``lib/hfoss/model/validate.py``
  - Edit the file ``planet/config.ini``.  Look at the very bottom of the file and
    there will be the beginnings of a list of subscribed blogs.  Add your blog's
    RSS feed (or a topical sub-feed) to this list.  Make sure its a working RSS

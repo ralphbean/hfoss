@@ -145,7 +145,7 @@ html_static_path = ['.static']
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'TOS_RIT_ProjectsSeminar'
+htmlhelp_basename = 'HFOSS'
 
 
 # Options for LaTeX output

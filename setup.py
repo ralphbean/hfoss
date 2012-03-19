@@ -6,9 +6,9 @@ import multiprocessing, logging
 from setuptools import setup
 
 setup(
-    name='rit.floss',
+    name='hfoss',
     version='0.1',
-    description="Materials for teaching open source at RIT",
+    description="Materials for teaching the HFOSS course at RIT",
     install_requires=[
         'Sphinx',
         'cloud_sptheme',
@@ -16,7 +16,7 @@ setup(
         'feedparser',
     ],
     url = "http://teachingopensource.org/index.php/RIT",
-    download_url = "https://github.com/ralphbean/tos-rit-projects-seminar",
+    download_url = "https://github.com/ralphbean/hfoss",
     author='Ralph Bean',
     author_email='ralph.bean@gmail.com',
     license='GPLv3+',
