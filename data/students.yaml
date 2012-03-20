@@ -38,3 +38,11 @@
   irc: rossdylan
   name: Ross Delinger
   rit_dce: rad4899
+
+- blog: http://oddshocks.com/blog
+  feed: http://oddshocks.com/blog/feed
+  forges:
+    - http://github.com/oddshocks
+  irc: oddshocks
+  name: David Gay
+  rit_dce: dtg5645

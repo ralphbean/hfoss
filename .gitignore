@@ -5,3 +5,5 @@ html-output
 *.pyc
 *.pdf
 sphinxenv
+*.py~
+*~
