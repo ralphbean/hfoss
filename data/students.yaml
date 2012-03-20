@@ -30,7 +30,7 @@
   name: Ralph Bean
   rit_dce: rjbpop
 - blog: http://slackwill.com/
-  feed: http://slackwill/com/feed
+  feed: http://slackwill/com/feed/index.xml
   forges: 
     - http://github.com/WillDignazio
   irc: slackwill
