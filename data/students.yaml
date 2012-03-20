@@ -46,3 +46,11 @@
   irc: oddshocks
   name: David Gay
   rit_dce: dtg5645
+
+- blog: http://ryansb.com/
+  feed: http://ryansb.com/atom.xml
+  forges:
+    - http://github.com/ryansb
+  irc: ryansb
+  name: Ryan Brown
+  rit_dce: rsb6994
