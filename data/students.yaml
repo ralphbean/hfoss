@@ -54,3 +54,11 @@
   irc: ryansb
   name: Ryan Brown
   rit_dce: rsb6994
+
+- blog: http://slackwill.com/
+  feed: http://slackwill/com/feed/index.xml
+  forges: 
+    - http://github.com/WillDignazio
+  irc: slackwill
+  name: Will Dignazio
+  rit_dce: wmd4589
