@@ -16,4 +16,50 @@ Week 02, Day 2:  Introduction to Python
 ---------------------------------------
 
  - Lightning Talks!!!
- - Introduction to Python
+ - More ``git`` with ryansb and http://ryansb.com/seminars/git
+ - Introduction to Python (check out http://learnpythonthehardway.org/book/)
+
+   - basic operators
+   - strings
+   - formatting
+   - multiplying strings
+   - lists
+   - dicts
+   - conditionals
+   - boolean trickery, not and in
+   - any and all
+   - while loops
+   - continue
+   - break
+   - for loops
+   - functions
+   - args and kwargs
+   - whitespace
+   - classes
+   - stdlib
+   - virtualenv
+   - pypi
+   - setup.py
+
+Week 03, Day 1:  Intermediate Python
+------------------------------------
+
+ - :doc:`hw/fflight` is due.  How'd it go?
+ - Other business
+ - Intermediate Python
+
+   - sweet modules on pypi
+   - zip
+   - map
+   - filter
+   - list comprehensions (!)
+   - generators
+   - decorators
+   - multiprocessing
+   - dunder methods
+   - context managers
+   - multiple inheritance
+
+ - Next time..
+
+   - metaprogramming
