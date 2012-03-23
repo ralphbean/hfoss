@@ -62,3 +62,11 @@
   irc: slackwill
   name: Will Dignazio
   rit_dce: wmd4589
+  
+- blog: http://tmillervideo.blogspot.com/
+  feed: http://tmillervideo.blogspot.com/feeds/posts/default?alt=rss
+  forges:
+  	- https://github.com/tj-miller
+  irc: tj-miller
+  name: Travis Miller
+  rit_dce: tjm1421
