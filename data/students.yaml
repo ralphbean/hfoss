@@ -62,3 +62,11 @@
   irc: slackwill
   name: Will Dignazio
   rit_dce: wmd4589
+
+- blog: http://andrewmandula.wordpress.com
+  feed: http://andrewmandula.wordpress.com/feed
+  forges:
+    - http://github.com/ajman1101
+  irc: ajman
+  name: Andrew Mandula
+  rit_dce: ajm7770
