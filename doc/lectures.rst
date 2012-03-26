@@ -35,11 +35,6 @@ Week 02, Day 2:  Introduction to Python
    - functions
    - args and kwargs
    - whitespace
-   - classes
-   - stdlib
-   - virtualenv
-   - pypi
-   - setup.py
 
 Week 03, Day 1:  Intermediate Python
 ------------------------------------
@@ -48,7 +43,11 @@ Week 03, Day 1:  Intermediate Python
  - Other business
  - Intermediate Python
 
+   - stdlib
+   - virtualenv
+   - setup.py
    - sweet modules on pypi
+   - classes
    - zip
    - map
    - filter
