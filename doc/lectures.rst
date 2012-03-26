@@ -55,6 +55,8 @@ Week 03, Day 1:  Intermediate Python
 
      - shelve
      - fabulous
+     - nose
+     - sqlalchemy
 
    - zip
    - map
