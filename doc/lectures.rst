@@ -44,18 +44,26 @@ Week 03, Day 1:  Intermediate Python
  - Intermediate Python
 
    - stdlib
+
+     - argparse
+     - urllib2
+     - itertools
+
    - virtualenv
    - setup.py
    - sweet modules on pypi
-   - classes
+
+     - shelve
+     - fabulous
+
    - zip
    - map
    - filter
    - list comprehensions (!)
    - generators
    - decorators
-   - multiprocessing
-   - dunder methods
+   - classes
+   - dunder methods (reference, http://www.siafoo.net/article/57)
    - context managers
    - multiple inheritance
 
