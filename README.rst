@@ -19,7 +19,15 @@ prompt...
 On Linux/Mac OS X
 +++++++++++++++++
 
-::
+If you don't have virtualenv installed yet, try::
+
+ $ sudo easy_install virtualenv virtualenvwrapper
+
+If you're using a distro like Fedora or Ubuntu, you should try this isntead::
+
+ $ sudo yum install python-virtualenv
+
+Once you have virtualenv installed, you should be able to run::
 
  $ virtualenv --no-site-packages -p python2 sphinxenv
  $ source sphinxenv/bin/activate
