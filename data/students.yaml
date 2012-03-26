@@ -70,3 +70,11 @@
   irc: tj-miller
   name: Travis Miller
   rit_dce: tjm1421
+
+- blog: http://nedblakley.wordpress.com/
+  feed: http://nedblakley.wordpress.com/feed/
+  forges:
+    - https://github.com/nmb7895
+  irc: ned_ballad
+  name: Ned Blakley
+  rit_dce: nmb7895
