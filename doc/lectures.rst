@@ -67,6 +67,10 @@ Week 03, Day 1:  Intermediate Python
    - context managers
    - multiple inheritance
 
- - Next time..
+Week 03, Day 2:  So-called "Advanced" Python
+--------------------------------------------
+
+ - Lightning Talks!!!
+ - Advanced Python
 
    - metaprogramming
