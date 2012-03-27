@@ -78,3 +78,11 @@
   irc: ned_ballad
   name: Ned Blakley
   rit_dce: nmb7895
+
+- blog: http://andrewmandula.wordpress.com
+  feed: http://andrewmandula.wordpress.com/feed
+  forges:
+    - http://github.com/ajman1101
+  irc: ajman
+  name: Andrew Mandula
+  rit_dce: ajm7770
