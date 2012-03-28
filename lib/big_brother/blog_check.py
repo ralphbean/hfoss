@@ -46,7 +46,7 @@ def check_blogs():
         student_data = yaml.load(students)
 
     student_posts = {}
-    target = datetime(2011, 11, 28)
+    target = datetime(2012, 03, 4)
     for student in student_data:
         when = []
         if student.get('feed'):
