@@ -70,3 +70,11 @@
   irc: tj-miller
   name: Travis Miller
   rit_dce: tjm1421
+
+- blog: http://insanefossone.tumblr.com/
+  feed: http://insanefossone.tumblr.com/rss
+  forges:
+    - https://github.com/insanefastone
+  irc: insanefastone
+  name: Jennifer Dziuba
+  rit_dce: jld7283
