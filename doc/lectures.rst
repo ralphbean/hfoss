@@ -108,6 +108,8 @@ Week 04, Day 1:  OLPCs!!!
 -------------------------
 
  - Homework 2 is due.  How did it go?
+ - There is a TA for the class; Nate Case.
+   ``qalthos`` in IRC or qalthos ~@~ gmail.com
  - OLPC Distribution
  - OLPC Smoke Test
 

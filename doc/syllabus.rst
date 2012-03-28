@@ -13,6 +13,7 @@ Projects Seminar in FLOSS Game Development
    - Office:  The Center for Student Innovation
    - Office Hours:  Monday, Wednesday, 12:00-1:00pm
 
+ - Teacher's Assistant - Nate Case <qalthos@gmail.com>.  ``qalthos`` in IRC.
  - IRC - irc.freenode.net, ``#floss-seminar``
  - Email list - `floss-seminar@lists.rit.edu
    <https://lists.rit.edu/mailman/listinfo.cgi/floss-seminar>`_
