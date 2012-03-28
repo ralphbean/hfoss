@@ -1,17 +1,5 @@
 from random import random
 
-class SwitchboardMeta(type):
-    def __new__(meta, name, bases, dct):
-        if bases[-1] == object:
-            bases = bases[:-1]
-
-        bases += pick_random_parents()
-
-        if not bases:
-            bases = (object,)
-
-        return type.__new__(meta, name, bases, dct)
-
 class GrandParent(object):
     def awesome(self):
         print "I'm the grandparent."
@@ -30,6 +18,19 @@ class Parent3(GrandParent):
     def awesome(self):
         print "I'm parent3"
         super(Parent3, self).awesome()
+
+class SwitchboardMeta(type):
+    def __new__(meta, name, bases, dct):
+        if bases[-1] == object:
+            bases = bases[:-1]
+
+        bases += pick_random_parents()
+
+        if not bases:
+            bases = (object,)
+
+        return type.__new__(meta, name, bases, dct)
+
 
 def pick_random_parents():
     return tuple((p for p in [Parent1, Parent2, Parent3] if random() < 0.5))

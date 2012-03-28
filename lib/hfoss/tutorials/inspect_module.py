@@ -34,4 +34,4 @@ if __name__ == '__main__':
     print "-" * 50  # Separate our output
     print f()       # Run it with a broken input.
     print "-" * 50  # Separate our output
-    print f()       # Run it with good input.
+    print f('foo')  # Run it with good input.
