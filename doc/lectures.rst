@@ -72,7 +72,57 @@ Week 03, Day 1:  Intermediate Python
 Week 03, Day 2:  So-called "Advanced" Python
 --------------------------------------------
 
+ - Announcements
+
+   - The `planet <http://threebean.org/floss-planet>`_ is up.  Subscribe to it
+     with your RSS reader.
+   - Homework 2 is due on Monday.  Good to go?
+   - Special guest `Luke Macken <http://lewk.org>`_!
+
  - Lightning Talks!!!
  - Advanced Python
 
-   - metaprogramming
+   - context managers revisited
+
+     - https://github.com/ralphbean/pyrasite/commit/cdca3dfc4b757249d50fcc2ab6fc7de6d40dc0f5
+
+   - locals() and globals()
+   - the inspect module
+
+     - docstrings and 'help'
+     - inspect.stack
+     - inspect.getsource
+
+   - the abstract syntax tree
+
+     - desmaj's tool
+     - macchiato
+
+   - synthesizing stuff
+
+     - getattr and __getattr__, two sides of the coin
+
+   - metaclasses
+
+Week 04, Day 1:  OLPCs!!!
+-------------------------
+
+ - Homework 2 is due.  How did it go?
+ - OLPC Distribution
+ - OLPC Smoke Test
+
+Week 04, Day 2:  Sugar
+----------------------
+
+ - Lightning Talks
+ - Announcements
+
+   - Project pitches are due on Monday
+
+ - Introduction to Sugar
+
+Week 05, Day 1:  Projects
+-------------------------
+
+ - Lightning Talks
+ - Introduction to Sugar
