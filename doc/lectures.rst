@@ -118,6 +118,10 @@ Week 04, Day 1:  OLPCs!!!
  - OLPC Smoke Test
 
    - http://wiki.laptop.org/go/Smoke_test/10.1.x/1_hour_smoke_test
+   - The one exception to the smoke test is that you need to
+     use ``connect-rit`` in the terminal activity to connect
+     to ``ritwpa2``.  Just open the terminal activity and run
+     ``./connect-rit``.  Each XO should have it.
 
 Week 04, Day 2:  Sugar
 ----------------------
