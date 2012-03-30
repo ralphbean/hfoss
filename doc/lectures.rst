@@ -117,6 +117,8 @@ Week 04, Day 1:  OLPCs!!!
 
  - OLPC Smoke Test
 
+   - http://wiki.laptop.org/go/Smoke_test/10.1.x/1_hour_smoke_test
+
 Week 04, Day 2:  Sugar
 ----------------------
 
