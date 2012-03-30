@@ -111,6 +111,10 @@ Week 04, Day 1:  OLPCs!!!
  - There is a TA for the class; Nate Case.
    ``qalthos`` in IRC or qalthos ~@~ gmail.com
  - OLPC Distribution
+
+   - I need your DCE name.
+   - These must be returned at the end of the quarter under penalty of death.
+
  - OLPC Smoke Test
 
 Week 04, Day 2:  Sugar
