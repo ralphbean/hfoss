@@ -122,6 +122,11 @@ Week 04, Day 1:  OLPCs!!!
      use ``connect-rit`` in the terminal activity to connect
      to ``ritwpa2``.  Just open the terminal activity and run
      ``./connect-rit``.  Each XO should have it.
+   - **Oh no!** the ``connect-rit`` script is busted!
+
+     - If this is the case for you, you can get a new copy of it from
+       https://github.com/Qalthos/connect-rit -- Use a USB key to transfer it
+       to the OLPC.
 
 Week 04, Day 2:  Sugar
 ----------------------
