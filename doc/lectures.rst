@@ -138,6 +138,49 @@ Week 04, Day 2:  Sugar
 
  - Introduction to Sugar
 
+   - Reading you can do later if you want more detail:
+
+     - http://en.flossmanuals.net/make-your-own-sugar-activities
+     - http://wiki.laptop.org/go/Understanding_Sugar_code
+
+   - Sugar concepts
+
+     - Journal
+     - Different Views
+     - Sandboxing, not signing.
+
+   - You can bust out ``/usr/bin/sugar-session`` (
+     http://git.sugarlabs.org/sugar/mainline/blobs/master/bin/sugar-session or
+     http://gist.github.com/2297065 for a syntax-highlighted version)
+
+     - ``ps -ef | grep sugar``
+     - ``sudo yum -y install vim``
+     - ``vim /usr/bin/sugar-session`` and you'll see:
+
+       - A lot of ``from sugar import env, logger``
+       - And some ``from jarabe import model, view, keyhandler``
+
+   - Check out http://git.sugarlabs.org for the big `tamale`.
+
+   - What is an activity?
+
+     - A MANIFEST file.
+     - ``activity.info`` with metadata
+     - A .svg icon
+     - Translation files
+     - The source code (you'll need a class that extends ``Activity``)
+
+   - For an example, let's take a look at Fortune Hunter,
+     http://git.sugarlabs.org/project-xavier/mainline/trees/master/MAFH.activity
+
+   - What modules to use when writing your code?  You can use either of the
+     following.  They will both be installed on whatever XO your activity
+     makes its way to.
+
+     - PyGTK - http://www.pygtk.org/tutorial.html
+     - pygame - http://www.pygame.org/wiki/tutorials
+
+
 Week 05, Day 1:  Projects
 -------------------------
 
