@@ -1,3 +1,4 @@
 AJ +1
 Ross +1
 Will +1
+AJ +1, http://www.csh.rit.edu/~ajman/floss/inform7/Inform7.html#/step-1
