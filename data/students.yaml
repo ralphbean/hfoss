@@ -29,6 +29,8 @@
   irc: threebean
   name: Ralph Bean
   rit_dce: rjbpop
+  team:
+    - awesome
 
 - blog: http://posiden.darkdna.net/
   feed: http://posiden.darkdna.net/rss
@@ -38,6 +40,8 @@
   irc: rossdylan
   name: Ross Delinger
   rit_dce: rad4899
+  team:
+    - irc
 
 - blog: http://oddshocks.com/blog
   feed: http://oddshocks.com/blog/feed
@@ -46,6 +50,10 @@
   irc: oddshocks
   name: David Gay
   rit_dce: dtg5645
+  team:
+    - irc
+    - cave
+    - arthur
 
 - blog: http://ryansb.com/
   feed: http://ryansb.com/atom.xml
@@ -54,6 +62,8 @@
   irc: ryansb
   name: Ryan Brown
   rit_dce: rsb6994
+  team:
+    - irc
 
 - blog: http://slackwill.com/
   feed: http://slackwill/com/feed/index.xml
@@ -62,6 +72,8 @@
   irc: slackwill
   name: Will Dignazio
   rit_dce: wmd4589
+  team:
+    - irc
 
 - blog: http://tmillervideo.blogspot.com/
   feed: http://tmillervideo.blogspot.com/feeds/posts/default?alt=rss
@@ -70,6 +82,8 @@
   irc: tj-miller
   name: Travis Miller
   rit_dce: tjm1421
+  team:
+    - cave
 
 - blog: http://nedblakley.wordpress.com/
   feed: http://nedblakley.wordpress.com/feed/
@@ -78,6 +92,8 @@
   irc: ned_ballad
   name: Ned Blakley
   rit_dce: nmb7895
+  team:
+    - arthur
 
 - blog: http://andrewmandula.wordpress.com
   feed: http://andrewmandula.wordpress.com/feed
@@ -86,6 +102,8 @@
   irc: ajman
   name: Andrew Mandula
   rit_dce: ajm7770
+  team:
+    - arthur
 
 - blog: http://insanefossone.tumblr.com/
   feed: http://insanefossone.tumblr.com/rss
@@ -94,3 +112,5 @@
   irc: insanefastone
   name: Jennifer Dziuba
   rit_dce: jld7283
+  team:
+    - cave
