@@ -32,8 +32,8 @@
   team:
     - awesome
 
-- blog: http://posiden.darkdna.net/
-  feed: http://posiden.darkdna.net/rss
+- blog: http://blog.helixoide.com/
+  feed: http://blog.helixoide.com/rss
   forges:
     - http://github.com/rossdylan
     - http://bitbucket.org/rdelinger
