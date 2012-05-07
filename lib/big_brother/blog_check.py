@@ -8,6 +8,7 @@ import six
 
 planet_file = '../../planet/config.ini'
 yaml_file = '../../data/students.yaml'
+start_of_quarter = datetime(2012, 3, 4)
 
 def ini_to_yaml():
     feeds = {}
@@ -46,7 +47,6 @@ def check_blogs():
         student_data = yaml.load(students)
 
     student_posts = {}
-    target = datetime(2012, 03, 4)
     for student in student_data:
         when = []
         if student.get('feed'):
@@ -57,7 +57,7 @@ def check_blogs():
             size = len(feed.entries)
             for item in feed.entries:
                 publish_time = datetime.fromtimestamp(time.mktime(item.date_parsed))
-                if publish_time < target:
+                if publish_time < start_of_quarter:
                     #print('%s is older than %s, ignoring' % (publish_time, target))
                     continue
                 when.append(item.updated)
@@ -69,12 +69,14 @@ def check_blogs():
 
     average = sum(student_posts.values()) / float(len(student_posts))
     print(('Average of %f posts' % average))
-    target_number = (datetime.today() - target).total_seconds() /\
-        timedelta(weeks=1).total_seconds() - 3
+    # timedelta doesn't do division... yet.
+    target = int((datetime.today() - start_of_quarter).total_seconds() /\
+        timedelta(weeks=1).total_seconds())
+    print('Target of %d posts' % target)
     for student, count in student_posts.items():
-        if count > target_number:
+        if count > target:
             print(('+++%d %s' % (count, student)))
-        elif count < target_number:
+        elif count < target:
             print(('---%d %s' % (count, student)))
         else:
             print(('===%d %s' % (count, student)))
