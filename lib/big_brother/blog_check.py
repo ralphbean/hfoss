@@ -50,7 +50,7 @@ def check_blogs():
     for student in student_data:
         when = []
         if student.get('feed'):
-            print(('Checking %s' % student['irc']))
+            print('Checking %s' % student['irc'])
 
             feed = feedparser.parse(student['feed'])
 
@@ -63,23 +63,23 @@ def check_blogs():
                 when.append(item.updated)
 
         else:
-            print(('No feed listed for %s!' % student['irc']))
+            print('No feed listed for %s!' % student['irc'])
 
         student_posts[student['irc']] = len(when)
 
     average = sum(student_posts.values()) / float(len(student_posts))
-    print(('Average of %f posts' % average))
+    print('Average of %f posts' % average)
     # timedelta doesn't do division... yet.
     target = int((datetime.today() - start_of_quarter).total_seconds() /\
         timedelta(weeks=1).total_seconds())
     print('Target of %d posts' % target)
     for student, count in student_posts.items():
         if count > target:
-            print(('+++%d %s' % (count, student)))
+            print('+++%d %s' % (count, student))
         elif count < target:
-            print(('---%d %s' % (count, student)))
+            print('---%d %s' % (count, student))
         else:
-            print(('===%d %s' % (count, student)))
+            print('===%d %s' % (count, student))
 
 
 #ini_to_yaml()
