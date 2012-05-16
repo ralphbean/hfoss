@@ -181,6 +181,8 @@ in :doc:`hw/fflight`).
 Blogging is good for you and good for the `FLOSS community at large
 <http://xkcd.com/979/>`_.
 
+The details for the final can be found at :doc:`final`.
+
 Lightning Talks - Extra Credit
 ------------------------------
 
